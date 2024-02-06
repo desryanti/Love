@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Valentine's Day Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://wallpapercave.com/wp/V99ACvu.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
+        
+        .heart {
+            color: #f1048f;
+            font-size: 200px;
+            animation: heartbeat 1s infinite;
+        }
+        
+        @keyframes heartbeat {
+            0% {
+                transform: scale(0.75);
+            }
+            20% {
+                transform: scale(1);
+            }
+            40% {
+                transform: scale(0.75);
+            }
+            60% {
+                transform: scale(1);
+            }
+            80% {
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(0.75);
+            }
+        }
+        
+        p {
+            font-size: 50px;
+            color: #000000;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            margin: 0 10px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">&hearts;</div>
+    <p><strong>Blessed Valentine's Day!</strong> <br/>
+    My Forever Wife, Murnawati Sibagariang</p>
+
+    <div class="image-container">
+        <img src="c:\Users\HP\Downloads\WhatsApp Image 2024-02-06 at 15.35.09.jpeg" alt="Image 1">
+        <img src="c:\Users\HP\Downloads\WhatsApp Image 2024-02-06 at 15.35.10.jpeg" alt="Image 2">
+        <img src="c:\Users\HP\Downloads\WhatsApp Image 2024-02-06 at 15.35.09 (1).jpeg" alt="Image 3">
+    </div>
+</body>
+</html>
